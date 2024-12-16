@@ -9,7 +9,7 @@ This project provides a machine learning-based solution to predict the quality o
 
 ---
 
-## Technologies Used
+## Library Used
 - **Python**: Core programming language.
 - **Django**: Web framework for the front-end and API integration.
 - **Pandas**: Data manipulation and feature handling.
@@ -73,21 +73,8 @@ To train the model, follow these steps:
 2. Use XGBoost or another suitable machine learning library to train your model. Example:
    ```python
    from xgboost import XGBClassifier
-   from sklearn.preprocessing import StandardScaler
-   import joblib
-
-   # Training
-   scaler = StandardScaler()
-   X_scaled = scaler.fit_transform(X)
-   model = XGBClassifier()
-   model.fit(X_scaled, y)
-
-   # Save model artifacts
-   joblib.dump({
-       'model': model,
-       'scaler': scaler,
-       'feature_names': ['user_reputation', 'taker_mpxr_delta']
-   }, 'post_quality_model.joblib')
+   import xgboost as xgb
+   import logging
    ```
 
 3. Save the trained model and scaler in `post_quality_model.joblib`.

@@ -134,20 +134,4 @@ To train the model, follow these steps:
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-## Contact
-If you have any questions or feedback, feel free to contact:  
-**Developer**: [Your Name]  
-**Email**: [your.email@example.com]
-```
-
-### Notes:
-1. Replace placeholders like `https://github.com/your-repo-name` or `[Your Name]` with your actual details.
-2. If this is a public project, include any additional instructions or disclaimers as necessary. 
-3. Add any missing sections, such as API details, if applicable.  
-
-Let me know if you’d like further customization!
